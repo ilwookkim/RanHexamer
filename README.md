@@ -11,10 +11,10 @@ devtools::install_github("ilwookkim/RanHexamer")
 
 ### Usage
 
-parameters\\
-num_word  : number of hexamers\\
-h_dist    : hamming distance of each hexamer\\
-show_df   : an option to show the distance matrix of hexamers\\
+parameters  
+num_word  : number of hexamers  
+h_dist    : hamming distance of each hexamer  
+show_df   : an option to show the distance matrix of hexamers
 
 ``` r
 library(RanHexamer)
