@@ -1,0 +1,14 @@
+Package: RanHexamer
+Title: What the Package Does (One Line, Title Case)
+Version: 1.0.0
+Authors@R: c(
+    person("Ilwook", "Kim", role = c("aut","cre"), email = "ilwook.kim.1982@gmail.com"))
+Description: Random Hexamer generator for the multiple displacement amplification (MDA).
+License: GPL-3 + file LICENSE
+Depends: R (>= 3.6)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+biocViews: 
+Imports: stringr
