@@ -34,6 +34,8 @@ hxmer_generator <- function(num_words = 96, h_dist = 3, show_df = TRUE){
       cat('\n')
       break
       # If the number of possible combination are more than 96, Stop and show the list.
+    } else {
+      cat(paste('Possible hexamers are smaller than',num_words,". Try to use smaller number"))
     }
   }
   if(show_df) {
